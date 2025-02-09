@@ -1,0 +1,73 @@
+/* Set the background color for the entire page */
+body {
+  background-color: #d6bba4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #124237;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  border-bottom: 4px solid #0f322b;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  padding-top: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 12px 20px;
+  margin-top: 25px;
+  border: 2px solid #124237;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  background-color: #f9f9f9;
+}
+
+input[type="text"]:focus {
+  border-color: #2ecc71;
+  box-shadow: 0px 0px 8px rgba(46, 204, 113, 0.6);
+  background-color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #124237;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #e2ffa8;
+}
+
+tr:nth-child(odd) {
+  background-color: #c6e881;
+}
